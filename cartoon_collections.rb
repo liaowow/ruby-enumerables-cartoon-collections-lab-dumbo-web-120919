@@ -21,7 +21,7 @@ def find_the_cheese(arr)
   index = 0
   while index < cheese_types.length do
     if arr.include?(cheese_types[index])
-      cheese_types[index]
+      return cheese_types[index]
     end
   index += 1
   end
